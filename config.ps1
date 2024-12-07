@@ -2,14 +2,14 @@
 $config = @{
     # Repository settings
     RepoName = "testing"
-    RepoPath = "$HOME\Documents\GitHub\testing"
+    RepoPath = "$env:OneDrive\Documents\GitHub\jasrasr-test\testing"
     RepoURL = "https://github.com/jasrasr/testing"
     
     # Git settings
     DefaultBranch = "main"
     
     # Logging
-    LogPath = "$HOME\Documents\GitHub\testing\logs"
+    LogPath = "$env:OneDrive\Documents\GitHub\jasrasr-test\testing\logs"
     EnableLogging = $true
 }
 
